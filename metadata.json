@@ -1,0 +1,8 @@
+{
+  "name": "Android USB Options",
+  "description": "Let's you change USB function of your android device from panel.",
+  "uuid": "androidUsbOpts@anurag.parmar.com",
+  "shell-version": [
+    "42"
+  ]
+}
