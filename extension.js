@@ -156,7 +156,7 @@ class Extension {
     });
 
     getDevices().then((devices) => {
-      if (devices?.length <= 0) return;
+      if (!devices || devices?.length <= 0) return;
 
       this._indicator = new Indicator();
       Main.panel.addToStatusArea(this._uuid, this._indicator);
